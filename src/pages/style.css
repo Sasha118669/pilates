@@ -35,8 +35,9 @@ body {
 }
 .right-btn {
     border: none;
-    border-radius: 45%;
+    border-radius: 5%;
     background-color: #008DDA;
+    margin: 10px;
 }
 .right-btn a {
     font-size: 24px;

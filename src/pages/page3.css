@@ -36,8 +36,9 @@ flex-wrap: wrap;
     }
     .left-btn {
         border: none;
-        border-radius: 45%;
+        border-radius: 5%;
         background-color: #008DDA;
+        margin: 10px;
     }
     .left-btn a {
         font-size: 24px;
