@@ -6,28 +6,32 @@ body {
     margin: 0;
     padding: 0;
 }
-.project {
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;  
-    flex-direction: column;
+    max-width: 1000px;
+justify-content: center;
+align-items: center;
+margin: auto;
+flex-direction: column;
+flex-wrap: wrap;
 }
-.header h1{
+.container h2 {
+    font-weight: normal;
+    color: #008DDA;
+    font-size: 32px;
+}
+.container h1 {
     color: #008DDA;   
     font-size: 50px;
 }
-.header img {
+.container p {
+font-size: 24px;
+}
+.poster img {
     width: 400px;
 }
-.list {
+.paragraph {
     font-family: "Quicksand", sans-serif;
-    font-size: 24px;
-    padding: .3rem;
-}
-.list a {
-    color: #008DDA;
-    text-decoration: none;
 }
 .footer {
     display: flex;
